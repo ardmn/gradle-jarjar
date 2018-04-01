@@ -5,7 +5,7 @@ package ru.tinkoff.gradle.jarjar
  */
 class JarJarPluginExtension {
 
-    String jarJarDependency = 'com.ardmn:jaraar:1.0.2'
+    String jarJarDependency = 'com.ardmn:jaraar:1.0.3'
 
     Map<String, String> rules = [:]
 
