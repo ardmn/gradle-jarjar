@@ -4,3 +4,11 @@ ext {
     ossrhReleasesUrl = 'https://oss.sonatype.org/service/local/staging/deploy/maven2/'
     ossrhSnapshotsUrl = 'https://oss.sonatype.org/content/repositories/snapshots/'
 }
+
+allprojects {
+    repositories {
+        maven {
+            url "https://mymavenrepo.com/repo/pdwMU0o9ADzqSn2O9tFz/"
+        }
+    }
+}
