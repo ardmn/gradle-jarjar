@@ -25,7 +25,7 @@ class JarJarTask extends DefaultTask {
                 project.ant {
                     jarjar(jarfile: "build/libs/${key}") {
                         zipfileset(src: "build/libs/${key}.original")
-                        for(int i=0;i<ruleParts.length ;i+2) {
+                        for(int i=0;i<ruleParts.length ;i=+2) {
                             rule pattern: ruleParts[i], result: ruleParts[i+1]
                         }
                     }

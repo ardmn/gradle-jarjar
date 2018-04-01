@@ -1,5 +1,5 @@
 ext {
-    pluginVersion = '1.0.11'
+    pluginVersion = '1.0.12'
 
 }
 
