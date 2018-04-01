@@ -35,7 +35,7 @@ publishing {
 
             groupId 'com.ardmn.gradle'
             artifactId 'jaraar'
-            version '1.0.1'
+            version '1.0.3'
 
             from components.java
         }

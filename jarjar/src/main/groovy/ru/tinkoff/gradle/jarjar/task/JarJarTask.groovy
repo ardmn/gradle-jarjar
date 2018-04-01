@@ -15,7 +15,7 @@ class JarJarTask extends DefaultTask {
         }
 
         project.ant {
-            taskdef name: 'jaraar', classname: 'com.tonicsystems.jarjar.JarJarTask', classpath: this.project.configurations.jarJar.asPath
+            taskdef name: 'jarjar', classname: 'com.tonicsystems.jarjar.JarJarTask', classpath: this.project.configurations.jarJar.asPath
         }
 
         def rules = project.jarJar.rules
